@@ -76,7 +76,7 @@ func TestCounterIncrHttpServer(t *testing.T) {
 	t.Log(v)
 	go func() {
 		time.Sleep(5000 * time.Millisecond)
-		os.Exit(1);
+		os.Exit(0);
 	}()
 	c.HttpServer(8888)
 
