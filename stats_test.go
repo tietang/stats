@@ -4,7 +4,7 @@ import (
 	"math/rand"
 	"strconv"
 	"testing"
-	"tietang/assert"
+	"github.com/tietang/assert"
 )
 
 func TestCounterIncr(t *testing.T) {
