@@ -93,4 +93,3 @@ func (c *Counter) HttpServer(port int) {
 	log.Println("http://127.0.0.1:" + strconv.Itoa(port) + "/metrics")
 	http.ListenAndServe(":"+strconv.Itoa(port), nil)
 }
-
